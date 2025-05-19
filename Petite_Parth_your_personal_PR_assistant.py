@@ -3,7 +3,7 @@ import time
 from PIL import Image
 from IPython.display import display, Audio, Image as IPyImage
 
-def type_print(text, delay=0.01):
+def type_print(text, delay=0.07):
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
